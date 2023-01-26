@@ -23,14 +23,17 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
     justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .debug footer{
     height: 70px;
     background-color: #222222;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*Header*/
@@ -53,5 +56,12 @@
     max-width:400px;
     max-height:200px;
     position: relative;
+}
+
+.micro-nome{
+    position:absolute;
+    color: white;
+    background-color: #999999;
+    bottom: -60px;
 }
 /*Footer*/
