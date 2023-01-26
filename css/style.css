@@ -37,8 +37,12 @@
 }
 
 /*Header*/
+
+.fa-solid{
+    color: white;
+}
+
 .fa-compress{
-    color:white;
     background-color: #555555;
     max-height: 20px;
 }
@@ -65,3 +69,52 @@
     bottom: -60px;
 }
 /*Footer*/
+
+.mic-web{
+    display: flex;
+}
+
+footer > div {
+    color: white;
+}
+
+.freccina{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img-mic, .img-web{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.img-web{
+    padding-left:20px;
+}
+
+.fa-share-from-square{
+    color: greenyellow;
+}
+
+.tool{
+    display: flex;
+}
+
+.box-tool{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.box-tool{
+    text-align: center;
+}
+
+.end-off{
+    color: red;
+    background-color: #555555;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
