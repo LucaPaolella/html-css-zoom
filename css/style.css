@@ -5,3 +5,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Debug*/
+
+.debug header{
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.debug main{
+    height: calc(100vh - 110px) ;
+    background-color: black;
+    border: 1px solid white;
+    overflow: auto;
+}
+
+.debug footer{
+    height: 70px;
+    background-color: #222222;
+}
+
+/*Header*/
+.fa-compress{
+    color:white;
+    background-color: #555555;
+    max-height: 20px;
+}
+
+.speaker{
+    color:white;
+    background-color: #555555;
+    margin-right: 2px;
+    max-height: 20px;
+}
+/*Main*/
+/*Footer*/
