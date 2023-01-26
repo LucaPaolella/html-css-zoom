@@ -20,11 +20,17 @@
     background-color: black;
     border: 1px solid white;
     overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 .debug footer{
     height: 70px;
     background-color: #222222;
+    display: flex;
 }
 
 /*Header*/
@@ -40,5 +46,12 @@
     margin-right: 2px;
     max-height: 20px;
 }
+
 /*Main*/
+
+.box{
+    max-width:400px;
+    max-height:200px;
+    position: relative;
+}
 /*Footer*/
